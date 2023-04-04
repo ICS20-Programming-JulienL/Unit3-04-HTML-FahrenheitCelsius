@@ -2,7 +2,7 @@
 //
 // Created by: Julien Lamoureux
 // Created on: April 3 2023
-// This file contains the JS functions for index.html, Unit3-03-HTML-VolumeSphere
+// This file contains the JS functions for index.html, Unit3-04-HTML-FahrenheitCelsius
 
 "use strict";
 
