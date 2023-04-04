@@ -6,13 +6,13 @@
 
 "use strict";
 
-function calculateCelsiusTempature() {
-  // get the radius from user input
-  let fahrenheit= parseFloat(document.getElementById("tempature-fahrenheit").value)
+function calculateCelsiuisTempature() {
+  //Get the temperature in degrees Fahrenheit
+  let fahrenheit= parseFloat(document.getElementById("fahrenheit-variable").value)
 
-  //calculate the volume 
+  //calculate the temperature in degrees Celsius
   let celsius = 5/9*(fahrenheit-32)
 
   // display the volume 
-  document.getElementById('answer1').innerHTML = "The tempature in degrees celsius " +celsius.toFixed(1)+"&degC";
+  document.getElementById('answer1').innerHTML = "The temperature in degrees celsius is " +celsius.toFixed(2)+"&degC";
 }

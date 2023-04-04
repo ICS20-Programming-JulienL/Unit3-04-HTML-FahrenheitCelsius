@@ -4,7 +4,7 @@
   <head>
     <!--Meta Data-->
     <meta charset="utf-8">
-    <meta name="description" content="Fahrenheit to Celsiuis Calculator">
+    <meta name="description" content="Fahrenheit to Celsius Calculator">
     <meta name="keywords" content="Immaculata, ics2o">
     <meta name="author" content="Julien L.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-deep_purple.min.css"/>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
-    <title>Fahrenheit to Celsiuis Calculator</title>
+    <title>Fahrenheit to Celsius Calculator</title>
   </head>
   <body>
     <script src="./js/script.js"></script>
@@ -29,25 +29,25 @@
       <!-- Web page header -->
       <header class = "mdl-layout__header">
         <div class = "mdl-layout__header-row">      
-          <span class = "mdl-layout-title">Fahrenheit to Celsiuis Calculator</span>         
+          <span class = "mdl-layout-title">Fahrenheit to Celsius Calculator</span>         
         </div>       
       </header>
       <!--Input and Textfield code-->
       <center>
         <br>
         <h3>Please enter the following:</h3>
-        <form action="javascript:calculateCelsiusTempature()">
-          <label for="tempature-fahrenheit">Tempature in degrees fahrenheit:</label>
-          <input type="number" id="tempature-fahrenheit" step=".001" placeholder="Enter the tempature in fahrenheit"><br><br>
+        <form action="javascript:calculateCelsiuisTempature()">
+          <label for="fahrenheit-variable">Temperature in degrees Fahrenheit:</label>
+          <input type="number" id="fahrenheit-variable" step=".001" placeholder="Enter the tempature in fahrenheit"><br><br>
         <!-- Accent-colored raised button -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick ="calculateCelsiusTempature()">
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick ="calculateCelsiuisTempature()">
           Calculate
         </button>
         </form>
         <!-- Create a space where the user information will be displayed -->
         <div id="answer1">
         </div>
-        <img src="./images/FahrenheitCelsiuis.PNG" alt="Volume of Sphere">
+        <img src="./images/FahrenheitCelsiuis.PNG" alt="Fahrenheit to celsius">
         <!-- MDL Progress Bar with Indeterminate Progress -->
         <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
       </center>
