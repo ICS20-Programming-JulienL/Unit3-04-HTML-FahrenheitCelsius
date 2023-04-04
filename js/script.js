@@ -13,6 +13,6 @@ function calculateCelsiuisTempature() {
   //calculate the temperature in degrees Celsius
   let celsius = 5/9*(fahrenheit-32)
 
-  // display the volume 
+  // display results 
   document.getElementById('answer1').innerHTML = "The temperature in degrees celsius is " +celsius.toFixed(2)+"&degC";
 }
